@@ -6,38 +6,15 @@
 *.DS_*
 ._*.*
 
-# Ignore bin folder
-**/bin/*
-
-# Keep useful libs
-!libs/**/Debug
-!libs/**/Release
-!libs/**/bin/*
-
-Debug/
-Release/
-
-.svn/
-obj/
-build/
-xcuserdata/
-
+.vs/**
 ipch/
 *.suo
 *.opensdf
 *.vcxproj.user
+*.vsxproj.filters
 
-# Visual Studio temp files
-*.obj
-*.tlog
-*.sdf
-*.pdb
-*.idb
-*.pch
+ofxArUcoLib/bin
+ofxArUcoLib/obj
 
-
-# VVVV backup files
-*~.xml
-Application/Rulr\.VC\.db
-
-Application/Rulr\.VC\.VC\.opendb
+example/bin
+example/obj
