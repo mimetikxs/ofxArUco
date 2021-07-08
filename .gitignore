@@ -18,3 +18,8 @@ ofxArUcoLib/obj
 
 example/bin
 example/obj
+
+example-*/bin/*
+!example-*/bin/data
+example-*/obj
+example-*/.vs/**
