@@ -4,7 +4,7 @@ This fork uses a modiffied version of aruco that fixes some issues with the orig
 
 The sole purpose of this fork is to be able to use aruco with [ofxSpinnaker](https://github.com/mimetikxs/ofxSpinnaker) in my projects. 
 
-I've previously tried to use ofxAruco2 (which doesn't use ofxAddonLib) with ofxSpinnaker, but I've been unable to compile.
+I've previously tried to use [ofxAruco2](https://github.com/mimetikxs/ofxAruco2) (which doesn't use ofxAddonLib) with ofxSpinnaker, but I've been unable to compile.
 
 The only way to make these two addons work together was to use this addon, where aruco is pre-compiled as a dll. 
 
@@ -18,6 +18,7 @@ To use this addon in your machine:
 - Done
 
 ## 2. Download ArUco and compile it as dll using the installed opencv's version
+- Detailed instructions [here](https://github.com/mimetikxs/Build_ArUco_and_MarkerMapper).
 
 ## 3. After compiling aruco:
 - Update the libs, includes and dlls with the files you just compiled
